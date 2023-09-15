@@ -43,3 +43,9 @@ This organization facilitates the separation of data for testing, training, and 
 ## Data exploration
 
 Previewed the dataset to examine and compare the X-rays of both normal and pneumonia-affected lungs, aiming to gain a better understanding of the images. This exploration allowed me to visually assess the characteristics, patterns, and differences between the two categories, contributing to a more comprehensive understanding of the dataset and the medical conditions it represents.
+
+## Data Visualization
+
+As seen in the image below it previews the xrays to be used with the models
+
+[X-rays_of_normal_and_pneumonia](images/review%20image.png)
