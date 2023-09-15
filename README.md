@@ -79,3 +79,27 @@ Based on the graph shown above, it's evident that the model performs well on the
 ![CNNs](images/cnn_model_performance.png)
 
 Based on the graph above, the performance of the CNN model is impressive as it fits the training data well, consistently maintaining a loss below 0.3. In contrast, the validation set, which plays a crucial role in preventing overfitting, achieves its lowest loss at 9 epochs, with a value of 0.00731.
+
+The CNN model outperforms the base model. To gain deeper insights into its performance, we conduct a thorough investigation using a confusion matrix.
+
+![confusion matrix](images/confuison%20matrix%20cnn.png)
+
+The plotted confusion matrix above reveals that 385 predictions accurately classified X-rays as pneumonia, representing true positives. Additionally, 120 predictions correctly identified X-rays as normal, constituting another set of true positives. However, the matrix also indicates that 114 predictions for normal X-rays were inaccurately classified as pneumonia, resulting in false positives. Furthermore, there were 5 predictions that were misclassified as normal, contributing to the false positives as well.
+
+## Conclusion
+
+The best model was the `cnn_model`, which achieved an accuracy of 80%, a considerably high performance metric. This accuracy level suggests that the model is performing well and is effectively generalizing itself with the test data.
+
+## Recommendation
+
+From the project to implement deep learning for pneumonia classification at Serenity Health Center, several key conclusions can be drawn:
+
+1. **Enhanced Diagnostic Accuracy**: The implementation of deep learning technology has the potential to significantly enhance the accuracy of pneumonia diagnosis. This can lead to earlier detection and more precise treatment, ultimately improving patient outcomes.
+
+2. **Data-Driven Insights**: The project generates valuable insights from the vast amount of medical imaging data available. These insights can be used for research, quality improvement initiatives, and population health management.
+
+3. **Operational Efficiency**: Deep learning-based automation has the capacity to reduce the burden on healthcare professionals, particularly radiologists, by expediting the initial screening process for pneumonia. This can result in quicker turnaround times for image analysis and reporting, leading to improved workflow efficiency.
+
+4. **Cost Reduction**: Improved accuracy in diagnosis can potentially reduce healthcare costs associated with misdiagnoses, delayed treatment, and extended hospital stays. Early detection and intervention can lead to shorter hospital stays and lower treatment costs for patients.
+
+5. **Competitive Advantage**: Serenity Health Center's commitment to leveraging cutting-edge technology like deep learning demonstrates its dedication to innovation and patient care. This can enhance the hospital's reputation, attract top medical talent, and differentiate it from competitors in the healthcare industry.
