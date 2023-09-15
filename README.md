@@ -48,4 +48,4 @@ Previewed the dataset to examine and compare the X-rays of both normal and pneum
 
 As seen in the image below it previews the xrays to be used with the models
 
-[X-rays_of_normal_and_pneumonia](images/review%20image.png)
+![X-rays_of_normal_and_pneumonia](images/review%20image.png)
