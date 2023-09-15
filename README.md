@@ -49,3 +49,33 @@ Previewed the dataset to examine and compare the X-rays of both normal and pneum
 As seen in the image below it previews the xrays to be used with the models
 
 ![X-rays_of_normal_and_pneumonia](images/review%20image.png)
+
+To compare the distinctions between normal X-rays and those showing pneumonia, we obtain the distinct difference by averaging the images.
+
+![comparison](images/comparison.png)
+
+we see that:
+
+* The normal lung image should appear clear and transparent, exhibiting minimal opacity.
+
+* The size and shape of the normal lung image should be relatively uniform and symmetrical.
+
+* Normal lungs generally display a symmetrical appearance.
+
+* In contrast, pneumonia can introduce asymmetry, with certain regions, particularly the left lung, affected more than others.
+
+## Data Modelling
+
+We employ Dense layers as our baseline neural network model, which is a standard choice. Additionally, we utilize Convolutional Neural Networks (CNNs) specifically designed for image processing, making it easier to work with images without extensive preprocessing.
+
+### Baseline Model
+
+![dense_model](images/dense_model%20performance.png)
+
+Based on the graph shown above, it's evident that the model performs well on the training data, as indicated by the consistently low loss function, mostly below 0.2, as the number of epochs increases. Meanwhile, the validation set, which serves the purpose of preventing overfitting, demonstrates its lowest loss at 5 epochs, where it reaches a value of 0.22661.
+
+### Convolutional Neural Networks Model
+
+![CNNs](images/cnn_model_performance.png)
+
+Based on the graph above, the performance of the CNN model is impressive as it fits the training data well, consistently maintaining a loss below 0.3. In contrast, the validation set, which plays a crucial role in preventing overfitting, achieves its lowest loss at 9 epochs, with a value of 0.00731.
