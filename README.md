@@ -52,7 +52,7 @@ As seen in the image below it previews the xrays to be used with the models
 
 To compare the distinctions between normal X-rays and those showing pneumonia, we obtain the distinct difference by averaging the images.
 
-![comparison](images/comparison.png)
+![comparison](images/comparison.png) ![comparison pneumonia](images/comparison2.png)
 
 we see that:
 
