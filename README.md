@@ -103,3 +103,7 @@ From the project to implement deep learning for pneumonia classification at Sere
 4. **Cost Reduction**: Improved accuracy in diagnosis can potentially reduce healthcare costs associated with misdiagnoses, delayed treatment, and extended hospital stays. Early detection and intervention can lead to shorter hospital stays and lower treatment costs for patients.
 
 5. **Competitive Advantage**: Serenity Health Center's commitment to leveraging cutting-edge technology like deep learning demonstrates its dedication to innovation and patient care. This can enhance the hospital's reputation, attract top medical talent, and differentiate it from competitors in the healthcare industry.
+
+## Non Technical Presentation
+
+To access the non technical presentaion [click here](https://www.canva.com/design/DAFuoCHyOVE/5D6Cad5rKxsa5e3qiyR4lw/edit?ui=eyJHIjp7fX0)
